@@ -3,3 +3,4 @@ Note : le fait que les assiettes ne sont pas numérotées dans l'ordre n'est pas
 Il n'y a pas d'incohérence dans le nombre d'assiettes car la pile est synchronysée
 
 Question 2 : Expliquer pourquoi le thread représentant l'essuyeur ne peut prendre d'assiette dans la pile.
+Car le push n'était pas synchronisé 
